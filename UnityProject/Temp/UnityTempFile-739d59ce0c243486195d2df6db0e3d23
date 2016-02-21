@@ -5,8 +5,6 @@
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'/Applications/Unity5.2.1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'/Applications/Unity5.2.1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
 -define:UNITY_5_2_1
@@ -76,6 +74,7 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
+-define:/SHOW_DEBUG_MESSAGES
 'Assets/Chapter1/Scripts/Database.cs'
 'Assets/Chapter1/Scripts/MyCharacter.cs'
 'Assets/Chapter1/Scripts/MyClass.cs'
@@ -89,8 +88,12 @@
 'Assets/Chapter1/Scripts/SampleClass.cs'
 'Assets/Chapter1/Scripts/Tavern.cs'
 'Assets/Chapter2/Scripts/CubeScript.cs'
+'Assets/Chapter2/Scripts/DelegateUsage.cs'
 'Assets/Chapter2/Scripts/EnemyOgre.cs'
 'Assets/Chapter2/Scripts/EnemyOgreDefine.cs'
+'Assets/Chapter2/Scripts/ErrorMaker.cs'
 'Assets/Chapter2/Scripts/ErrorScript.cs'
+'Assets/Chapter2/Scripts/ExceptionLogger.cs'
+'Assets/Chapter2/Scripts/GizmoCube.cs'
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity5.2.1/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
